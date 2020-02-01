@@ -1,0 +1,34 @@
+.app {
+  height: 100vh;
+  color: white;
+}
+/* T'amuse pas à copier ces prochaines lignes si tu sais pas ce que c'est qu'un Css Reset... */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: larger;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 2rem 1rem;
+
+  /* évite de copier les prochaines lignes aussi ;) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
