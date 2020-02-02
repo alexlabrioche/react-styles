@@ -23,7 +23,7 @@ function CssInJs() {
   return (
     <PageWrapper>
       <Button secondary={isSecondary} onClick={handleButton}>
-        Clique moi si t'ose !!
+        Clique moi !!
       </Button>
       <p>
         <strong>Intéragi sur ton CSS avec des variables Javascript</strong>
